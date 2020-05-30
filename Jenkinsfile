@@ -18,7 +18,7 @@ pipeline {
       {
         withDockerRegistry([credentialsId: 'DockerHub', url:""])
         {
-          sh 'docker sarat996/spe-p:latest'
+          sh 'docker push sarat996/spe-p:latest'
         }
       }
     }

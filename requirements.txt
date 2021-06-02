@@ -36,5 +36,5 @@ six==1.15.0
 sklearn==0.0
 threadpoolctl==2.0.0
 twilio==6.40.0
-urllib3==1.25.9
+urllib3==1.26.5
 Werkzeug==1.0.1
